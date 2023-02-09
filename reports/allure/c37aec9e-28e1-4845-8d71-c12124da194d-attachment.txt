@@ -1,0 +1,3 @@
+[32mINFO    [0m test_sample:test_sample.py:13 *************** Test_001 *****************
+[32mINFO    [0m test_sample:test_sample.py:14 ****Started  Sample test ****
+[32mINFO    [0m test_sample:test_sample.py:15 ****Opening App****

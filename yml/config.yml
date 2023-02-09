@@ -1,0 +1,26 @@
+platform: &platform
+    platform: ios
+
+device_config: &device_config
+    ios:
+        platformName: 'iOS'
+        platformVersion: '16.0'
+        deviceName: 'iphoneX'
+        automationName: 'XCUITest'
+        noReset: True
+        appPackage: ''
+        appActivity: ''
+        folder: '/Users/yuvarajneelagandan/Desktop/TestingProjects/AIT_Mobile_Framework/resources/apps/test.app'
+    android:
+        platformName: 'android'
+        platformVersion: '13'
+        deviceName: 'myPixel'
+        automationName: 'uiautomator2'
+        appPackage: 'com.example.testapp'
+        appActivity: 'com.example.testapp.MainActivity'
+        noReset: True
+        folder: '/Users/yuvarajneelagandan/Desktop/TestingProjects/AIT_Mobile_Framework/resources/apps/test.apk'
+
+production:
+    <<: *platform
+    <<: *device_config

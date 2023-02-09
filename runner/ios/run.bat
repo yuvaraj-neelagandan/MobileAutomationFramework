@@ -1,0 +1,1 @@
+pytest -s -v -m "ios" --html=reports/report.html testCases/

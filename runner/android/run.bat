@@ -1,0 +1,1 @@
+pytest -s -v -m "android" --html=reports/report.html testCases/
